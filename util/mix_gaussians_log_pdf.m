@@ -5,8 +5,10 @@ function [ll, dll] = mix_gaussians_log_pdf( x, mix )
 % mix.weights is k x 1
 % mix.means is k x D
 %
+% Tamara Broderick
 % David Duvenaud
-% March 2012
+%
+% March 2013
 
 % vals is going to be summed over the elements of mixture.
 [K, D] = size(mix.means);

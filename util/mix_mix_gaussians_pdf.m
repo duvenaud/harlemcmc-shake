@@ -1,10 +1,10 @@
 function vals = mix_mix_gaussians_pdf( x, mixes )
 % Evaluate a mixutre of mixtures of Guassians at specified locations.
 %
+% Tamara Broderick
 % David Duvenaud
-% March 2012
-
-
+%
+% March 2013
 
 vals = zeros(size(x, 1), 1);
 for n = 1:numel(mixes)

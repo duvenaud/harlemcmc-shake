@@ -1,10 +1,11 @@
 function [params, nll, arate, tail] = hmc(likefunc, x, options, varargin)     
 % Hamiltonian Monte Carlo - copied from David Mackay's book.
 %
-% David Duvenaud
 % Tomoharu Iwata
+% Tamara Broderick
+% David Duvenaud
 %
-% April 2012
+% March 2013
 %
 % likefunc returns nll, dnll
 %

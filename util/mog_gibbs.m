@@ -4,6 +4,8 @@ function sample = mog_gibbs( mix, x )
 % dimensions being fixed.
 %
 % David Duvenaud
+% Tamara Broderick
+%
 % March 2012
 
 D = numel(x);

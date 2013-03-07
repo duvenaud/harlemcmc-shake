@@ -1,8 +1,10 @@
 function [logp, dlopg] = logmvnpdf(x,mu,Sigma)
 % Log of multivariate normal pdf.
 %
+% Tamara Broderick
 % David Duvenaud
-% January 2012.
+%
+% March 2013
 
 dim = length(mu);
 logdetcov = logdet(Sigma);

@@ -2,8 +2,10 @@ function cond_mix = mog_conditional( mix, x, fixed)
 % Returns a mixture of Gaussians, conditioned on some of its
 % dimensions being fixed to the value x.
 %
+% Tamara Broderick
 % David Duvenaud
-% March 2012
+%
+% March 2013
 
 D = size(mix.means, 2);
 notfixed = 1:D;

@@ -4,6 +4,9 @@ function harlem_shake( save_pngs_flag )
 % Tamara Broderick
 % David Duvenaud
 %
+% Current available at:
+% http://github.com/duvenaud/harlemcmc-shake
+%
 % March 2013
 
 
