@@ -14,7 +14,7 @@ Authors:
 Tamara Broderick (UC Berkeley)
 http://www.stat.berkeley.edu/~tab/
 
-David Duvenaud (U Cambridge)
+David Duvenaud (University of Cambridge)
 http://mlg.eng.cam.ac.uk/duvenaud/
 
 
